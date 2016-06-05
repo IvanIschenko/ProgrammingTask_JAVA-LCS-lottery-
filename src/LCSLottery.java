@@ -31,7 +31,7 @@ public class LCSLottery {
     public static void findLongCommSubs() {
 
         for(Player player : inputPlayersList){
-            player.setLongCommSubsCounter(LongCommSubsForTwoStrings(String.valueOf(player.getTicketNumber()), winningNumber).length());
+            player.setLongCommSubsCounter(LongCommSubsForTwoStrings(player.getTicketNumber(), winningNumber).length());
         }
     }
 
