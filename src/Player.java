@@ -15,11 +15,9 @@ public class Player {
     public boolean isChecked() {
         return isChecked;
     }
-
     public void setChecked(boolean checked) {
         isChecked = checked;
     }
-
     public int getLongCommSubsCounter() {
         return longCommSubsCounter;
     }
@@ -52,9 +50,7 @@ public class Player {
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return "\n" + getLastName() + ", " + getFirstName() + ", " + getCountry() + ", " + getLongCommSubsCounter();
     }
-
-
 }
